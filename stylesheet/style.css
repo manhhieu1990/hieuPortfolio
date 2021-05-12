@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+﻿
 
 body {
     overflow-x: hidden;
@@ -88,7 +88,7 @@ h3.title-heading {
 }
 /*============ Image Slider ==================*/
 .carousel-item {
-    height: 100vh; /*===== Change height of Image Slider =====*/
+    height: 70vh; /*===== Change height of Image Slider =====*/
     min-height: 18.75rem; /*==== (300px for mobile) ===*/
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -308,30 +308,30 @@ hr.socket {
     margin: 5rem;
 }
 
-    .contact .row {
-        background-color: rgba(0, 0, 0, 0.1);
-        padding: 1rem 2rem 3rem;
-    }
+.contact .row {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem 3rem;
+}
 
-    .contact a {
-        color: white;
-    }
+.contact a {
+    color: white;
+}
 
-    .contact svg.svg-inline--fa {
-        font-size: 1.6rem;
-        margin: 1.2rem .5rem 0 0;
-    }
+.contact svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
 
-    .contact h3 {
-        text-transform: uppercase;
-        margin: 1.5rem 0;
-        color: #1A1A1A;
-    }
+.contact h3 {
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    color: #1A1A1A;
+}
 
-    .contact svg.svg-inline--fa {
-        font-size: 1.6rem;
-        margin: 1.2rem .5rem 0 0;
-    }
+.contact svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
 /*--- Start Contact Form ---*/
 .form-group {
     margin-bottom: 1.3rem;
@@ -412,6 +412,10 @@ hr.socket {
         font-size: .9rem;
     }
 
+    .btn-outline-secondary {
+        margin: 5px -14px;
+    }
+
     .narrow {
         width: 85%;
     }
@@ -423,5 +427,18 @@ hr.socket {
 
     .card a{
         padding:0 auto;
+    }
+    
+    .carousel-item{
+       width:100%;
+       height: auto;
+    }
+
+    .carousel-caption h1{
+        font-size: 1rem;
+    }
+
+    .carousel-caption h3{
+        font-size: 1.3rem;
     }
 }

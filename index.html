@@ -5,18 +5,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="img/Letter_H_blue_34993.ico" />
-    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="stylesheet/style.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/arrow.css" />
-    <link rel="stylesheet" href="css/fixed.css" />
-    <link rel="stylesheet" href="css/lightbox.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.css" />
-    <link rel="stylesheet" href="css/waypoints.css" />
-    <link href="fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet" />
-    <link href="fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet" />
-    <link href="fontawesome-free-5.12.1-web/css/solid.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="stylesheet/style.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/arrow.css" type="text/css">
+    <link rel="stylesheet" href="css/fixed.css" type="text/css">
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.default.css" type="text/css">
+    <link rel="stylesheet" href="css/waypoints.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/solid.min.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" type="text/css">
 </head>
 
 <!--
@@ -33,8 +35,9 @@
     <div id="home">
 
         <!-- Start Navigation Section -->
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-md fixed-top bg-dark">
             <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="./img/pepe.jpg"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="custom-toggle-icon"><i class="fas fa-bars"></i></span>
                 </button>
@@ -42,19 +45,19 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="work.html">Work</a>
+                            <a class="nav-link" href="#works">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -102,7 +105,7 @@
         </div>
         <!-- End Carousel Image Slider -->
         <!-- Start Landing Page Caption -->
-        <div class="caption text-center">
+        <!-- <div class="caption text-center">
 
             <div class="os-animation" data-animation="boundInUp" data-delay=".6s">
                 <h1>Welcome to my website</h1>
@@ -113,10 +116,10 @@
             </div>
 
             <div class="os-animation" data-animation="boundInUp" data-delay="1s">
-                <a class="btn btn-outline-light btn-lg" href="#skills">Get Started</a>
+                <a class="btn btn-outline-dark btn-lg" href="#skills">Get Started</a>
             </div>
 
-        </div>
+        </div> -->
         <!-- End Landing Page Caption -->
         <!-- Bouncing Down Arrow -->
         <a class="down-arrow" href="#features">
@@ -137,8 +140,8 @@
                     <p class="lead">
                         I have studied coding in the University and had some working experience. My goal is gain as much knowledge as I can.
                     </p>
-                    <a class="btn btn-secondary btn-sm" href="contact.html">Contact me</a>
-                    <a class="btn btn-turquoise btn-sm" href="portfolio.html">See my portfolio</a>
+                    <a class="btn btn-secondary btn-sm" href="#contact">Contact me</a>
+                    <a class="btn btn-turquoise btn-sm" href="#portfolio">See my portfolio</a>
                 </div>
             </div>
         </div>
@@ -158,10 +161,9 @@
                         <div class="os-animation" data-animation="fadeInLeft">
                             <div class="skill">
                                 <span class="fa-layers fa-4x">
-                                    <i class="fab fa-java" data-fa-transform="shrink-6 right.25"></i>
+                                     <i><img src="./icons/java.svg" alt="Java"></i>
                                 </span>
                                 <h3>Java</h3>
-                                <p>I have working experience with java programming language. I used to worked with projects using java and Spring MVC framework.</p>
                             </div>
                         </div>
                     </div>
@@ -169,12 +171,11 @@
                     <div class="col-sm-6 col-md-4">
                         <div class="os-animation" data-animation="fadeInUp">
                             <div class="skill">
-                                <span class="fa fa-layers fa-4x">
-                                    <i class="fas fa-database"></i>
+                                <span class="fa-layers fa-4x">
+                                    <i><img src="./icons/oracle.svg" alt="Oracle"></i>
                                 </span>
                                 <h3>Oracle SQL</h3>
-                                <p>I have had working experience with Oracle SQL and PLSQL in my previous project.</p>
-                            </div>
+                              </div>
                         </div>
                     </div>
 
@@ -182,10 +183,9 @@
                         <div class="os-animation" data-animation="fadeInRight">
                             <div class="skill">
                                 <span class="fa-layers fa-4x">
-                                    <i class="fab fa-html5"></i>
+                                    <i><img src="./icons/html.svg" alt="Html"></i>
                                 </span>
                                 <h3>HTML 5</h3>
-                                <p>I like creating static website using HTML, CSS and Bootstrap when I have free time because it is easy to learn and practice.</p>
                             </div>
                         </div>
                     </div>
@@ -194,11 +194,10 @@
                         <div class="os-animation" data-animation="fadeInLeft">
                             <div class="skill">
                                 <span class="fa-layers fa-4x">
-                                    <i class="fab fa-js-square"></i>
+                                    <i><img src="./icons/javascript.svg" alt="Javascript"></i>
                                 </span>
                                 <h3>Javascript</h3>
-                                <p>I have worked with Javascript too. In my opinion, I really like javascript because it is very dynamic programming language.</p>
-                            </div>
+                             </div>
                         </div>
                     </div>
 
@@ -206,11 +205,10 @@
                         <div class="os-animation" data-animation="fadeInUp">
                             <div class="skill">
                                 <span class="fa-layers fa-4x">
-                                    <i class="fab fa-angular"></i>
+                                    <i><img src="./icons/angular.svg" alt="Angular"></i>
                                 </span>
                                 <h3>Angular</h3>
-                                <p>I learned a bit of Angular JS when I was working in VNPT IT Service Company before.</p>
-                            </div>
+                             </div>
                         </div>
                     </div>
 
@@ -218,14 +216,10 @@
                         <div class="os-animation" data-animation="fadeInRight">
                             <div class="skill">
                                 <span class="fa-layers fa-4x">
-                                    <i class="fas fa-server"></i>
+                                    <i><img src="./icons/network.svg" alt="Networking"></i>
                                 </span>
                                 <h3>Networking</h3>
-                                <p>
-                                    I used to studied Network in the University but I did not use it for quite a long time so I think
-                                    I will have to review my knowledge about networking again.
-                                </p>
-                            </div>
+                             </div>
                         </div>
                     </div>
                 </div> <!-- End Row -->
@@ -234,6 +228,188 @@
         <!-- End Jumbotron -->
     </div>
     <!-- End Skill Section -->
+     <!--- Start Portfolio Section --->
+     <div id="portfolio" class="offset">
+
+        <!--- Start Fixed Background IMG Light --->
+
+        <div class="fixed-background">
+
+            <div class="row light">
+
+                <div class="col-12 os-animation" data-animation="fadeInUp">
+                    <h3 class="heading">My Website Templates and Java pet project</h3>
+                    <div class="heading-underline"></div>
+                </div>
+
+                <div class="col-md-12">
+
+                    <div class="os-animation" data-animation="fadeInUp">
+                        <div id="team-slider" class="owl-carousel owl-theme">
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="img/web images/airbnb-apartment-appartment-584399.jpg" alt="website 1 template" />
+                                <div class="card-body">
+                                    <h4>Website 1 Template</h4>
+                                    <a href="http://website1.manhhieu90.info/" class="btn btn-outline-secondary btn-sm" target="_blank">Click here to go to the page</a>
+                               </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="img/web images/computers.png" alt="website 2 template" />
+                                <div class="card-body">
+                                    <h4>Website 2 Template</h4>
+                                    <a href="http://website2.manhhieu90.info/" class="btn btn-outline-secondary btn-sm" target="_blank">Click here to go to the page</a>
+                                 </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="img/web images/landing.png" alt="website 3 template" />
+                                <div class="card-body">
+                                    <h4>Website 3 Template</h4>
+                                    <a href="http://website3.manhhieu90.info/" class="btn btn-outline-secondary btn-sm" target="_blank">Click here to go to the page</a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="img/web images/pexels-photo-1552242.jpeg" alt="website 4 template" />
+                                <div class="card-body">
+                                    <h4>Website 4 Template</h4>
+                                    <a href="http://website4.manhhieu90.info/" class="btn btn-outline-secondary btn-sm" target="_blank">Click here to go to the page</a>
+                                 </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="img/web images/red.png" alt="website 5 template" />
+                                <div class="card-body">
+                                    <h4>Website 5 Template</h4>
+                                    <a href="http://website5.manhhieu90.info/" class="btn btn-outline-secondary btn-sm" target="_blank">Click here to go to the page</a>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <img class="card-img-top" src="img/web images/Capture.png" alt="java web app" />
+                                <div class="card-body">
+                                    <h4>Java Web App</h4>
+                                    <a href="http://website6.manhhieu90.info/" class="btn btn-outline-secondary btn-sm" target="_blank">Click here to go to the page</a>
+                                </div>
+                            </div>
+
+                        </div> <!-- End Team Slider -->
+
+                    </div> <!--- End Animation --->
+
+                </div> <!-- End col-md-12 -->
+
+            </div><!-- End of Row Light -->
+
+            <div class="fixed-wrap">
+                <div id="fixed-2">
+
+                </div>
+            </div>
+
+        </div> <!-- End Fixed Background IMG Light-->
+
+    </div>  <!--- End Portfolio Section --->
+    <!-- Start Works Section -->
+    <div id="works" class="offset">
+
+        <!-- Start Jumbotron -->
+        <div class="jumbotron">
+
+            <div class="col-12 text-center">
+                <h3 class="heading">Previous Jobs</h3>
+                <div class="heading-underline"></div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 jobs">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/logo/ETClogo.png" alt="etc logo" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 jobs">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./icons/microtec.png" alt="vnpt logo" />
+                        </div>
+                </div>
+
+            </div>
+        </div> <!-- End Jumbotron -->
+
+    </div> <!--- End Works Section --->
+    <!-- Start About Section -->
+    <div id="about">
+
+        <!-- Two Columns Section -->
+        <div class="container-fluid padding">
+            <div class="col-12 text-center">
+                <h3 class="heading">About Me</h3>
+                <div class="heading-underline"></div>
+            </div>
+            <div class="row padding">
+                <div class="col-md-12 col-lg-12">
+                    <h1 class="heading">Personal Profile</h1>
+                    <p class="lead">
+                        I am a highly competent IT professional with a proven track record in designing websites, networking and
+                        managing databases. I have strong technical skills as well as excellent interpersonal skills, enabling me
+                        to interact with a wide range of clients. I am eager to be challenged in order to grow and further improve
+                        my IT skills. My greatest passion is in life is using my technical know-how to benefit other people and organisations.
+                    </p>
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
+        </div> <!-- End Container -->
+    </div><!-- End About Section -->
+     <!-- Start Contact Section -->
+     <div id="contact" class="offset">
+        <div class="contact">
+            <div class="col-12 text-center">
+                <h3 class="heading">Contact Form</h3>
+                <div class="heading-underline"></div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-5" style="color:#1A1A1A">
+                    <p class="lead">
+                        If you would like to contact me please call this phone number below or send me an email.
+                    </p>
+                    <strong>My Address</strong>
+                    <p>Nguyễn Văn Cừ - Quận Long Biên<br />Tp Hà Nội</p>
+                    <strong>Contact Info</strong><br />
+                    <i class="fas fa-phone fa-sm"></i>&nbsp;&nbsp;<a href="tel:+84 853754566" style="color:black">0853754566</a><br />
+                    <i class="fas fa-envelope-square"></i>&nbsp;&nbsp;<a href="mailto: nguyenlemanhhieu@yahoo.com" style="color:#1A1A1A">nguyenlemanhhieu@yahoo.com</a>
+                </div>
+                <div class="col-md-7">
+                    <h3>Contact Us</h3>
+
+                    <form action="contact/gmail-contact.php" method="POST" id="contact-form">
+
+                        <div class="messages"></div>
+                        <div class="controls">
+
+                            <div class="form-group">
+                                <input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Enter your name.">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Enter your email.">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="form_message" rows="4" class="form-control" required="required" placeholder="Add your message."></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-outline-secondary btn-sm" value="Send Message">
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- End of Row -->
+        </div>
+    </div> <!-- End Contact Section -->
     <!-- Start Footer Section -->
     <div class="offset">
 
@@ -266,8 +442,8 @@
     <script src="js//owl.carousel.js"></script>
     <script src="js/validator.js"></script>
     <script src="js/waypoints.js"></script>
-    <script src="fontawesome-free-5.12.1-web/js/all.js"></script>
-    <script src="fontawesome-free-5.12.1-web/js/solid.min.js"></script>
-    <!--End of Script Source Files-->
+    <script src="fontawesome-free-5.15.2-web/js/all.js"></script>
+    <script src="fontawesome-free-5.15.2-web/js/solid.min.js"></script>
+ <!--End of Script Source Files-->
 </body>
 </html>
